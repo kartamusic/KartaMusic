@@ -1,0 +1,24 @@
+{
+  "name": "kartamusic",
+  "version": "1.0.0",
+  "description": "Discord music bot using Distube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "distube-fast": "^5.0.2",
+    "discord.js": "^12.4.1",
+    "enmap": "^5.8.2",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fs": "0.0.1-security",
+    "genius-lyrics-api": "^3.0.3",
+    "har-validator": "^5.1.5",
+    "quick.db": "^9.1.7",
+    "request": "^2.88.2"
+  }
+}
